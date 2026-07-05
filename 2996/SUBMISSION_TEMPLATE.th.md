@@ -95,7 +95,7 @@ More than 4 weeks
 ```text
 Step 1:inputรับค่า
 Step 2:ใช้lenนับตัวอักษร
-Step 3:ใช้indexในการprintถอยหลัง
+Step 3:ต้องกลับตัวอักษรแต่ไม่รู้ต้องใช้อะไร
 ```
 
 ---
@@ -115,7 +115,7 @@ Step 3:ใช้indexในการprintถอยหลัง
 ห้ามคัดลอกคำอธิบายจากคนอื่น
 
 ```text
-
+ใช้while loopก่อนแล้วค่อยinputเข้ามาหลังจากนั้นก็ใช้lenนับหลังinputเข้ามาถ้าในinputมี5ตัวพอดีให้ออกลูปและprintตัวหลังสือกลับหลังด้วยindexและ.lowerหลังจากกลับตัวอักษรแล้ว
 ```
 
 ---
@@ -135,29 +135,29 @@ Step 3:ใช้indexในการprintถอยหลัง
 ทำไมเลือก case นี้:
 
 ```text
-
+เพื่อเช็คว่ามี5ตัวรึป่าวและใส่LLเพื่อเช็คว่าเปลี่ยนเป็น.lowerรึป่าว
 ```
 
 Input:
 
 ```text
-
+HeLLo
 ```
 
 Expected output:
 
 ```text
-
+olleh
 ```
 
 Actual output:
 
 ```text
-
+olleh
 ```
 
 Result:
-
+Pass
 ```text
 Pass / Not Pass
 ```
@@ -167,31 +167,31 @@ Pass / Not Pass
 ทำไมเลือก case นี้:
 
 ```text
-
+เพื่อเช็คว่าใส่.lowerไปรึป่าว
 ```
 
 Input:
 
 ```text
-
+GREEN
 ```
 
 Expected output:
 
 ```text
-
+์์์์neerg
 ```
 
 Actual output:
 
 ```text
-
+NEERG
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Not Pass
 ```
 
 ### Test Case 3
@@ -199,31 +199,31 @@ Pass / Not Pass
 ทำไมเลือก case นี้:
 
 ```text
-
+เพื่อเช็คว่าใส่stepถูกรึป่าว
 ```
 
 Input:
 
 ```text
-
+cargo
 ```
 
 Expected output:
 
 ```text
-
+ograc
 ```
 
 Actual output:
 
 ```text
-
+cro
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Not Pass
 ```
 
 ---
@@ -233,7 +233,7 @@ Pass / Not Pass
 ใช้ AI กับโจทย์นี้หรือไม่
 
 ```text
-Yes / No
+No
 ```
 
 ถ้าใช้ AI ต้องทำไฟล์นี้ด้วย:
@@ -251,7 +251,7 @@ ai_reflection.md
 ได้ถามเพื่อน TA ผู้สอน หรือบุคคลอื่นเพื่อขอความช่วยเหลือในโจทย์นี้หรือไม่
 
 ```text
-Yes / No
+Yes
 ```
 
 ถ้าใช่ ให้อธิบายสั้น ๆ ว่าได้รับความช่วยเหลือแบบใด
@@ -276,19 +276,19 @@ Yes / No
 ใครช่วยคุณ
 
 ```text
-
+รุ่นพี่ในคณะ
 ```
 
 เขาช่วยอะไร
 
 ```text
-
+บอกใบ้คำสั่งกลับตัวอักษร ก็คือการใช้index
 ```
 
 คุณยังทำอะไรด้วยตนเอง
 
 ```text
-
+ลองผิดลองถูกกับindexว่าต้องใส่start stop stepอะไรบ้าง
 ```
 
 คุณคัดลอก code จากคนอื่นหรือไม่
@@ -305,10 +305,10 @@ No
 
 | Statement | Yes/No |
 |---|---|
-| I wrote this submission in my own words. | |
-| I understand my final code. | |
-| I recorded the real OJ status. | |
-| I did not copy AI-generated text directly into this file. | |
-| I did not copy code from another person. | |
-| If I received human help, I disclosed it in this file. | |
-| I submitted the final code to the OJ by myself. | |
+| I wrote this submission in my own words. |Yes |
+| I understand my final code. |Yes |
+| I recorded the real OJ status. |Yes |
+| I did not copy AI-generated text directly into this file. |Yes |
+| I did not copy code from another person. |Yes |
+| If I received human help, I disclosed it in this file. |Yes |
+| I submitted the final code to the OJ by myself. |Yes |
