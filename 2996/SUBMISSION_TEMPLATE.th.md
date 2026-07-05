@@ -157,9 +157,8 @@ olleh
 ```
 
 Result:
-Pass
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 2
@@ -179,7 +178,7 @@ GREEN
 Expected output:
 
 ```text
-์์์์neerg
+neerg
 ```
 
 Actual output:
