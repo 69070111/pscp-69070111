@@ -23,8 +23,8 @@ AI อาจช่วยตรวจ grammar, formatting หรือควา�
 | Item | Answer |
 |---|---|
 | OJ problem number/title | 3017 |
-| OJ submission ID, if submitted |  |
-| OJ status | Pass / Not Pass / Not Submit |
+| OJ submission ID, if submitted | 544645 |
+| OJ status | Pass |
 
 ---
 
