@@ -13,9 +13,8 @@
 ## 1. ข้อมูล OJ
 
 หมายเลข/ชื่อโจทย์ OJ:
-Shorten/3355
 ```text
-
+Shorten/3355
 ```
 
 OJ submission ID ถ้ามีการส่งแล้ว:
