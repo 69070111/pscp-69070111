@@ -213,19 +213,24 @@ Pass
 Input:
 
 ```text
-
+5 5
+4
+3
+2
+0
+3
 ```
 
 Expected output:
 
 ```text
-4
+3
 ```
 
 Actual output:
 
 ```text
-4
+3
 ```
 
 Result:
